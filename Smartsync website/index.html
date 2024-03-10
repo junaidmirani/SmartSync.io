@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartSync - Dare to Dream, Sync to Succeed</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <img src="logo.jpeg" alt="SmartSync Logo" />
+          <!-- Add the logo image -->
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" id="about-link">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#" id="join-link">Join Us</a></li>
+            <li><a href="#" id="contact-link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h2>Dare to Dream, Sync to Succeed</h2>
+        <p>
+          Join Pakistan's smartest student community Join niche clubs, interact
+          with experts, explore, network with high-profile and ambitious
+          individuals, get internships, and join Pakistan’s largest community
+          all for free! What are you waiting for?
+        </p>
+        <a href="https://chat.whatsapp.com/G3p749MBM7CIO3U7q9IPnp" class="btn"
+          >Join Now</a
+        >
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 SmartSync. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      // Add event listener to "Join Us" link
+      document
+        .getElementById("join-link")
+        .addEventListener("click", function (event) {
+          // Prevent default link behavior
+          event.preventDefault();
+
+          // Open the join.html page
+          window.location.href = "join.html";
+        });
+      // Add event listener to "about" link
+      document
+        .getElementById("about-link")
+        .addEventListener("click", function (event) {
+          // Prevent default link behavior
+          event.preventDefault();
+
+          // Open the join.html page
+          window.location.href = "about.html";
+        });
+      // Add event listener to "about" link
+      document
+        .getElementById("contact-link")
+        .addEventListener("click", function (event) {
+          // Prevent default link behavior
+          event.preventDefault();
+
+          // Open the join.html page
+          window.location.href = "contact.html";
+        });
+    </script>
+  </body>
+</html>
